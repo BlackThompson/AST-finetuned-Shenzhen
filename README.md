@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
 2. 切割好的音频进行人辨别后，进行分类，分为几种情况
 
-   ![image-20230819133418874](../../AppData/Roaming/Typora/typora-user-images/image-20230819133418874.png)
+   ![image-20230819133418874](pic/1.png)
 
    1. 如果是以上音频中某一种识别不准（比如有一种新的鸟鸣声，但是模型没有见过，识别不出来），**则直接将新的音频复制进`birds`即可**
 
@@ -135,5 +135,5 @@ if __name__ == "__main__":
 
 3. 训练集组织好了之后，直接进入`train/train.ipynb`，直接将整个文件运行完就可以了，然后就会出现新的训练的模型文件，选择训练完后的尾数最大的一个模型的整个文件夹，替换掉`check-point-95`即可（记得修改`recognition`中的模型路径）
 
-   ![image-20230819134255581](../../AppData/Roaming/Typora/typora-user-images/image-20230819134255581.png)
+   ![image-20230819134255581](pic/2.png)
 
